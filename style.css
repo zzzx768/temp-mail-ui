@@ -1,0 +1,49 @@
+body {
+    font-family: Arial;
+    background: #f4f4f6;
+    margin: 0;
+    padding: 50px;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 3px 15px rgba(0,0,0,0.1);
+}
+
+.email-box {
+    display: flex;
+    gap: 10px;
+}
+
+#email {
+    flex: 1;
+    padding: 10px;
+}
+
+.new-email {
+    width: 100%;
+    margin-top: 15px;
+    padding: 12px;
+}
+
+.inbox {
+    margin-top: 20px;
+    border: 1px solid #ddd;
+    background: #fafafa;
+    padding: 10px;
+    min-height: 120px;
+}
+
+.mail-item {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+    cursor: pointer;
+}
+
+.mail-item:hover {
+    background: #e4e4e4;
+}
